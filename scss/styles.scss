@@ -1,6 +1,7 @@
 @import "normalize";
 @import "uikit.min";
 @import "uikit-rtl.min";
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body{
      background: #B0E6E9;
@@ -34,27 +35,32 @@ section {
   text-align: center;
   padding-right: 30px;
     color: #eafdff;
+    font-family: 'Quicksand', sans-serif;
 }
 
 a:link {
   text-decoration: none;
     color: #eafdff;
+    font-family: 'Quicksand', sans-serif;
 }
 
 ul {
 list-style-type: none;
 text-align: left;
     color: #eafdff;
+    font-family: 'Quicksand', sans-serif;
 }
 
 p, .uk-card-title {
     color: #eafdff;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
     text-align: center;
     color: #eafdff;
     margin: 0;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h2 {
@@ -62,12 +68,14 @@ h2 {
     color: #eafdff;
     margin-top: 10px;
     font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .uk-card {
   border: 3px solid #005A5E;
   background: #01939A;
  max-width: 450px;
+min-width: 250px;
 }
 
 img {
@@ -75,3 +83,23 @@ img {
     padding: 10px;
 }
 
+.uk-card:hover {
+    background: #33b8bf;
+    border: none;
+}
+
+.profile-img:hover {
+    animation-name: spin;
+  animation-duration: 800ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

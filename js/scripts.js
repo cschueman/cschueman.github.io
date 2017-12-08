@@ -1,8 +1,8 @@
 // 1. page load 2. store headers 3. ... x. Show header
 
 // Store headers
-var header0 = 'hi';
-var header1 = 'hi there';
+var header0 = 'hi!';
+var header1 = 'hello!';
 var header2 = 'welcome to my website';
 
 // Store & Generate Number
