@@ -3,7 +3,7 @@
 // Store headers
 var header0 = 'hi';
 var header1 = 'hi there';
-var header2 = 'welcome';
+var header2 = 'welcome to my website';
 
 // Store & Generate Number
 var maxRand = 3;
@@ -11,4 +11,4 @@ var randNum = Math.floor( Math.random() * maxRand );
 console.log(randNum);
 
 //  Show headers
-$('h1').text( eval('header' + randNum) );
+$('h2').text( eval('header' + randNum) );
